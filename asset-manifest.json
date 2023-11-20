@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/uploadcare-test-v2/static/css/main.1d2ad688.css",
+    "main.js": "/uploadcare-test-v2/static/js/main.67a52dec.js",
+    "index.html": "/uploadcare-test-v2/index.html",
+    "main.1d2ad688.css.map": "/uploadcare-test-v2/static/css/main.1d2ad688.css.map",
+    "main.67a52dec.js.map": "/uploadcare-test-v2/static/js/main.67a52dec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d2ad688.css",
+    "static/js/main.67a52dec.js"
+  ]
+}
