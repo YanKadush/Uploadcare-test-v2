@@ -1,0 +1,1 @@
+export const imgUrl = 'https://s3-eu-central-1.amazonaws.com/jazzpeople/wp-content/uploads/2015/11/12083442/Pink-Panther-3.jpeg';

@@ -1,13 +1,25 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { Component } from './Component';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { Page } from './pages';
+
 import './App.css';
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      enabled: false,
+      staleTime: 20000
+    }
+  }
+});
 
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Component />
+      <div className='app'>
+        <Page />
+      </div>
+      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
 }
